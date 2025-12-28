@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>Dr. Surendra Dental Clinic | Expert Dental Care</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@600&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            screens: {
+              'xs': '375px',
+              'sm': '641px',
+              'md': '769px',
+              'lg': '1025px',
+              'xl': '1281px',
+              '2xl': '1537px',
+            },
+            colors: {
+              dental: {
+                blue: {
+                  primary: '#0066CC',
+                  secondary: '#003366',
+                },
+                white: {
+                  primary: '#FFFFFF',
+                  secondary: '#F8FAFC',
+                },
+                gray: {
+                  primary: '#003366',
+                  secondary: '#475569',
+                }
+              },
+              medical: {
+                blue: '#0066CC',
+                accent: '#DC143C',
+                darkBlue: '#003366',
+                softBlue: '#F8FAFC',
+                mint: '#059669',
+                yellow: '#B45309',
+              },
+              primary: '#003366',
+              secondary: '#475569',
+            },
+            fontFamily: {
+              sans: ['"Open Sans"', 'sans-serif'],
+              heading: ['Montserrat', 'sans-serif'],
+              subheading: ['Poppins', 'sans-serif'],
+            },
+            borderRadius: {
+              'xl': '0.75rem',
+              '3xl': '1.5rem',
+              '4xl': '2rem',
+              '5xl': '3rem',
+            },
+            boxShadow: {
+              'premium': '0 10px 40px -10px rgba(0, 102, 204, 0.08)',
+              'trust': '0 20px 25px -5px rgba(0, 51, 102, 0.05), 0 8px 10px -6px rgba(0, 51, 102, 0.05)',
+            },
+            animation: {
+              'float': 'float 3s ease-in-out infinite',
+              'bob': 'bob 4s ease-in-out infinite',
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+              'fade-in-right': 'fadeInRight 0.8s ease-out forwards',
+              'bounce-slow': 'bounceSlow 2s infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+              bob: {
+                '0%, 100%': { transform: 'translateY(0) translateX(0)' },
+                '50%': { transform: 'translateY(-5px) translateX(2px)' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(30px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              fadeInRight: {
+                '0%': { opacity: '0', transform: 'translateX(-30px)' },
+                '100%': { opacity: '1', transform: 'translateX(0)' },
+              },
+              bounceSlow: {
+                '0%, 20%, 50%, 80%, 100%': { transform: 'translateY(0)' },
+                '40%': { transform: 'translateY(-10px)' },
+                '60%': { transform: 'translateY(-5px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --header-height: 70px;
+      }
+      html {
+        scroll-padding-top: var(--header-height);
+      }
+      body {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #003366;
+        overflow-x: hidden;
+        width: 100%;
+        -webkit-font-smoothing: antialiased;
+        background-color: #F8FAFC;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        line-height: 1.1;
+      }
+      .btn-primary {
+        @apply bg-dental-white-primary text-dental-blue-primary font-bold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105 active:scale-95 drop-shadow-sm font-subheading;
+      }
+      .btn-secondary {
+        @apply border-2 border-medical-accent text-medical-accent font-bold px-6 py-3 rounded-xl transition-all duration-300 hover:bg-medical-accent hover:text-white font-subheading;
+      }
+      .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        will-change: opacity, transform;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-dental-white-secondary">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
