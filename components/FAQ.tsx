@@ -15,7 +15,7 @@ const WhatsAppIcon = ({ size = 24 }: { size?: number }) => (
 
 const FAQ_DATA: FAQItem[] = [
   {
-    question: "How often should I visit Dr. Surendra Dental Clinic?",
+    question: "How often should I visit Dr. Bhanu Kiran Dental Clinic?",
     answer: "We generally recommend a routine check-up and cleaning every 6 months. However, based on your oral health status, our specialists might suggest more frequent visits."
   },
   {

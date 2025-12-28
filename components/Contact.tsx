@@ -37,7 +37,7 @@ export const Contact: React.FC<ContactProps> = ({ onBookClick }) => {
                 </div>
                 <div>
                   <p className="text-xs font-subheading font-semibold text-dental-gray-secondary uppercase tracking-widest">Email Team</p>
-                  <p className="font-heading font-bold text-dental-gray-primary">care@surendradental.com</p>
+                  <p className="font-heading font-bold text-dental-gray-primary">care@bhanukirandental.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">

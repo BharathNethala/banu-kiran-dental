@@ -67,7 +67,7 @@ const App: React.FC = () => {
   };
 
   const openWhatsApp = () => {
-    const message = encodeURIComponent("Hello Dr. Surendra Dental Clinic, I'd like to book an appointment for a dental consultation.");
+    const message = encodeURIComponent("Hello Dr. Bhanu Kiran Dental Clinic, I'd like to book an appointment for a dental consultation.");
     window.open(`https://wa.me/919912939531?text=${message}`, '_blank');
   };
 

@@ -19,7 +19,7 @@ export const Testimonials: React.FC = () => {
     {
       name: 'venu babu',
       role: 'Local Guide',
-      text: "I have got cleaned my teeth here, Dr. Surendra sir treated me very well and did the treatment very carefully. I recommend this dental clinic.",
+      text: "I have got cleaned my teeth here, Dr. Bhanu Kiran sir treated me very well and did the treatment very carefully. I recommend this dental clinic.",
       rating: 5,
       date: '3 months ago',
       image: 'https://images.unsplash.com/photo-1595053826286-2e59efd9ff18?q=80&w=2070&auto=format&fit=crop'
@@ -27,7 +27,7 @@ export const Testimonials: React.FC = () => {
     {
       name: 'Priya Sharma',
       role: 'Verified Patient',
-      text: "Excellent service and very professional staff. Dr. Surendra explained the procedure clearly and made me feel at ease throughout the treatment.",
+      text: "Excellent service and very professional staff. Dr. Bhanu Kiran explained the procedure clearly and made me feel at ease throughout the treatment.",
       rating: 5,
       date: '1 month ago',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop'
@@ -43,7 +43,7 @@ export const Testimonials: React.FC = () => {
     {
       name: 'Anjali Gupta',
       role: 'Local Resident',
-      text: "Got my wisdom tooth extracted here. It was completely painless! Dr. Surendra's hand is very steady. Highly recommended.",
+      text: "Got my wisdom tooth extracted here. It was completely painless! Dr. Bhanu Kiran's hand is very steady. Highly recommended.",
       rating: 5,
       date: '2 weeks ago',
       image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop'
@@ -139,7 +139,7 @@ export const Testimonials: React.FC = () => {
                             <MessageCircle size={22} />
                           </div>
                           <div>
-                            <p className="font-bold text-sm text-primary dark:text-white">Dr. Surendra Dental clinic (Owner)</p>
+                            <p className="font-bold text-sm text-primary dark:text-white">Dr. Bhanu Kiran Dental clinic (Owner)</p>
                             <p className="text-secondary dark:text-slate-400 text-sm italic mt-1">"{rev.ownerResponse}"</p>
                           </div>
                         </div>
@@ -182,7 +182,7 @@ export const Testimonials: React.FC = () => {
 
         <div className="text-center mt-16 reveal">
           <a 
-            href="https://www.google.com/maps/search/Dr.+Surendra+Dental+Clinic+reviews" 
+            href="https://www.google.com/maps/search/Dr.+Bhanu+Kiran+Dental+Clinic+reviews" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 text-medical-blue font-bold text-lg hover:underline underline-offset-4"

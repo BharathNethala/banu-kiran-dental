@@ -8,7 +8,7 @@ interface DoctorsProps {
 export const Doctors: React.FC<DoctorsProps> = ({ onDoctorClick }) => {
   const doctors = [
     {
-      name: 'Dr. Surendra',
+      name: 'Dr. Bhanu Kiran',
       qual: 'MDS Specialist',
       exp: 'Experienced Dental Surgeon',
       spec: 'Lead Dental Specialist',
@@ -19,7 +19,7 @@ export const Doctors: React.FC<DoctorsProps> = ({ onDoctorClick }) => {
       qual: 'Certified Staff',
       exp: 'Friendly & Supportive',
       spec: 'Clinical Excellence',
-      image: 'https://images.unsplash.com/photo-1622902046580-2b47f47f0871?q=80&w=1974&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     }
   ];
 
@@ -28,7 +28,7 @@ export const Doctors: React.FC<DoctorsProps> = ({ onDoctorClick }) => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 reveal">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary dark:text-white mb-4">
-            Meet Dr. Surendra
+            Meet Dr. Bhanu Kiran
           </h2>
           <p className="text-lg text-secondary dark:text-slate-400 max-w-2xl mx-auto">
             Providing expert dental care with a gentle touch and careful attention to every patient's needs.

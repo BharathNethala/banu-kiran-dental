@@ -125,16 +125,7 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled, onBookClick }) => {
 
         {/* Action Buttons */}
         <div className="hidden lg:flex items-center gap-5">
-          <button 
-            onClick={onBookClick}
-            className={`px-5 py-3 rounded-xl font-bold text-[10px] uppercase tracking-widest border transition-all ${
-              !isScrolled 
-                ? 'bg-white text-medical-blue border-white hover:bg-transparent hover:text-white' 
-                : 'bg-medical-blue text-white border-medical-blue hover:bg-blue-800 shadow-lg shadow-blue-500/20'
-            }`}
-          >
-            Schedule Appointment
-          </button>
+        
         </div>
 
         {/* Mobile UI */}

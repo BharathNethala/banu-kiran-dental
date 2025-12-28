@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
   };
 
   const clinicAddress = "123 Dental Street, Medical Enclave, New Delhi";
-  const mapLink = "https://www.google.com/maps/search/?api=1&query=Dr.+Surendra+Dental+Clinic";
+  const mapLink = "https://www.google.com/maps/search/?api=1&query=Dr.+Bhanu+Kiran+Dental+Clinic";
 
   return (
     <footer className="bg-white dark:bg-slate-950 pt-24 pb-12 border-t border-gray-100 dark:border-slate-900 transition-colors duration-300">
@@ -43,11 +43,11 @@ export const Footer: React.FC = () => {
                 <Logo className="h-14 w-14" />
               </div>
               <span className="font-heading text-2xl font-bold tracking-tight text-medical-darkBlue dark:text-white transition-colors group-hover:text-medical-blue">
-                Dr. Surendra <span className="text-medical-accent">Dental</span>
+                Dr. Bhanu Kiran <span className="text-medical-accent">Dental</span>
               </span>
             </div>
             <p className="text-secondary dark:text-slate-400 leading-relaxed">
-              We provide world-class dental care with specialized treatments for the whole family. Led by Dr. Surendra, we ensure your journey is safe, painless, and effective.
+              We provide world-class dental care with specialized treatments for the whole family. Led by Dr. Bhanu Kiran, we ensure your journey is safe, painless, and effective.
             </p>
             <div className="flex gap-4">
               {[Facebook, Instagram, Twitter, Linkedin].map((Icon, i) => (
@@ -86,9 +86,9 @@ export const Footer: React.FC = () => {
                 <div className="text-medical-accent group-hover:scale-110 transition-transform"><Phone size={20} /></div>
                 <span className="text-secondary dark:text-slate-400 group-hover:text-medical-blue transition-colors text-sm font-bold">+91 99999 88888</span>
               </a>
-              <a href="mailto:care@surendradental.com" className="flex items-center gap-4 group card-perfect p-3 rounded-2xl hover:bg-gray-50 dark:hover:bg-slate-900 border border-transparent hover:border-blue-100 dark:hover:border-slate-800">
+              <a href="mailto:care@bhanukirandental.com" className="flex items-center gap-4 group card-perfect p-3 rounded-2xl hover:bg-gray-50 dark:hover:bg-slate-900 border border-transparent hover:border-blue-100 dark:hover:border-slate-800">
                 <div className="text-medical-blue group-hover:scale-110 transition-transform"><Mail size={20} /></div>
-                <span className="text-secondary dark:text-slate-400 group-hover:text-medical-blue transition-colors text-sm">care@surendradental.com</span>
+                <span className="text-secondary dark:text-slate-400 group-hover:text-medical-blue transition-colors text-sm">care@bhanukirandental.com</span>
               </a>
             </div>
           </div>
@@ -133,7 +133,7 @@ export const Footer: React.FC = () => {
         {/* Legal Row */}
         <div className="pt-10 border-t border-gray-100 dark:border-slate-900 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-secondary dark:text-slate-500 text-sm">
-            © 2024 <span className="font-bold text-medical-darkBlue dark:text-slate-300">Dr. Surendra Dental Clinic</span>. Proudly keeping smiles bright.
+            © 2024 <span className="font-bold text-medical-darkBlue dark:text-slate-300">Dr. Bhanu Kiran Dental Clinic</span>. Proudly keeping smiles bright.
           </div>
           <div className="flex flex-wrap justify-center gap-8 text-secondary dark:text-slate-500 text-sm font-bold uppercase tracking-widest">
             <a href="#" className="hover:text-medical-blue transition-colors focus:ring-2 focus:ring-medical-blue/20 rounded-md px-1">Privacy</a>

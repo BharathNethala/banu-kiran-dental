@@ -24,12 +24,12 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick }) => {
           {/* Left Side: Content Box */}
           <div className="max-w-2xl py-12">
             <h1 className="reveal text-4xl md:text-6xl lg:text-7xl font-heading font-extrabold leading-[1.1] mb-8" style={{ transitionDelay: '100ms' }}>
-              Precision Clinical <br />
+              Your Expert <br />
               <span className="text-medical-accent">Dental Care.</span>
             </h1>
             
             <h2 className="reveal text-xl md:text-2xl font-subheading font-semibold text-blue-50/90 mb-8 max-w-lg leading-relaxed" style={{ transitionDelay: '200ms' }}>
-              Experience painless, specialized dentistry led by Dr. Surendra's 20+ years of expertise.
+              Experience painless, specialized dentistry led by Dr. Bhanu kiran 20+ years of expertise.
             </h2>
             
             <div className="reveal flex flex-col sm:flex-row gap-5" style={{ transitionDelay: '400ms' }}>
